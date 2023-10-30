@@ -3,7 +3,7 @@ const ReportSchema = new mongoose.Schema(
   {
     no: {
       type: String,
-      required: [true, "Place number must be Insert"],
+      default : "",
     },
     nama_pemohon: {
       type: String,
